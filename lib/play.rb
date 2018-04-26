@@ -36,9 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  until i > 9 do 
+  until board[index] > 9 do 
     turn(board)
-    i +=1
+    index +=1
   end
 end
 
